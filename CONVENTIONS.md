@@ -20,3 +20,9 @@
 4. Only create custom components if DaisyUI does not have one for the purpose.
 5. Use mutation and fetch keys for efficent data.
 6. All actual http calls should be put under /services, which are called by /composables, containing Tanstack queries/mutations, which are then called by /pages.
+
+# Deployment
+1. Docker and compose should always be first-class
+2. We should always create our own network, our own object storage, db, auth, and so on, and not rely on existing containers
+3. Remember to put data in gitignore
+
