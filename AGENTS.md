@@ -1,0 +1,1 @@
+Before working, please view CONVENTIONS.md and STACK.md for guidance
